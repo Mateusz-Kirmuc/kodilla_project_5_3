@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
-<body class="text-center">
-  <section>
+<body>
+  <section class="text-center">
     <h1>This is header <small>This is subtitle</small></h1>
     <button class="btn btn-info">This is btn</button>
   </section>
-  <section class="gallery">
+  <section class="gallery text-center">
     <h1>Gallery</h1>
     <div class="gallery__imgs-container container">
       <div class="row">
@@ -32,5 +32,39 @@
       </div>
     </div>
   </section>
+  <table class="table">
+      <thead>
+        <tr>
+          <th>Imię</th>
+          <th>Nazwisko</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jan</td>
+          <td>Kowalski</td>
+        </tr>
+        <tr>
+          <td>Jan</td>
+          <td>Kowalski</td>
+        </tr>
+        <tr>
+          <td>Jan</td>
+          <td>Kowalski</td>
+        </tr>
+      </tbody>
+    </table>
+  <form>
+    <div class="form-group">
+      <input type="text" class="form-control" type="text" placeholder="Your Name">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Your Email">
+    </div>
+    <div class="form-group">
+      <textarea name="name" rows="8" cols="80" placeholder="Message" class="form-control"></textarea>
+    </div>
+    <input type="submit" class="btn">
+  </form>
 </body>
 </html>
